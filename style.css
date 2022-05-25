@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Redressed';
+    height: 100vh;
+    background-color: #533737;
+    font-size: 22px;
+    position: relative;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background-color:rgb(152, 204, 94);
+    border-radius: 18px;
+    text-align: center;
+     
+}
+h1{
+    background-color: #b4718b;
+    padding: 10px 0;
+    font-size: 28px;
+    border-radius: 18px;
+}
+p{
+    color: #7e7e7e;
+}
+.control{
+    margin: 25px 0;
+}
+input{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid rgb(117, 153, 51);
+    color: #16a465;
+    font-size: 28px;
+    margin-top: 20px;
+}
+select{
+    border: none;
+    outline: none;
+    border: 1px solid #16a465;
+    color: #7e7e7e;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 11px 34px;
+    border-radius: 25px;
+    width: 75%;
+}
+button#calculate{
+    color: white;
+    background: #16a465;
+    border: 1px solid transparent;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 14px 29px;
+    margin: 25px;
+    transition: all .3s ease;
+}
+button#calculate:hover{
+    color: #16a465;
+    border-color: #16a465;
+    background: white;
+}
+.totalTip{
+    background-color: #cef5e4;
+    border-radius: 18px;
+    padding: 25px 0 35px;
+}
+p.tip{
+    font-size: 38px;
+    color: #009855;
+    margin-top: 10px;
+}
+
+#totalBill{
+    border-radius: 20px;
+    background-color: lightskyblue;
+}
+#split{
+    border-radius: 20px;
+    background-color: orange;
+     
+}

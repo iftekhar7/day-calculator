@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Name of Day Calculator</h1>
+      <form action="">
+        <div class="control">
+          <p>Enter date of birth</p>
+          <p class="input">
+            <input
+              type="number"
+              name=""
+              id="totalBill"
+              placeholder="Enter your date of Birth"
+            />
+          </p>
+        </div>
+        <div class="control">
+          <p>select Month of birth</p>
+          <select name="" id="tipPercent">
+            <option disabled selected value="0">Select from here</option>
+            <option value="1">January</option>
+            <option value="4">February</option>
+            <option value="4">March</option>
+            <option value="0">April</option>
+            <option value="2">May</option>
+            <option value="5">June</option>
+            <option value="0">Julay</option>
+            <option value="3">August</option>
+            <option value="6">September</option>
+            <option value="1">October</option>
+            <option value="4">November</option>
+            <option value="6">December</option>
+          </select>
+        </div>
+      </form>
+      <p>Enter year of Birth</p>
+      <input type="number" name="" id="split" placeholder="Year 1900 to 2000" />
+      <br />
+      <button id="calculate">Calculate</button>
+      <div class="totalTip">
+        <p>The Day is</p>
+        <p class="tip"><span id="tip">........</span></p>
+      </div>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
